@@ -1,0 +1,178 @@
+#wrap, #header, #container, #content {width: 100%;}
+#wrap {}
+.inner {width: 1400px; margin: auto; position: relative; box-sizing: border-box;}
+
+#header .inner {height: 120px;}
+#header {}
+#header h1 {position: absolute; left: 20px; top: 15px;}
+#header .nav {position: absolute; left: 250px; top: 45px;}
+#header .nav .gnb {display: flex;}
+#header .nav .gnb li {margin-left: 80px;}
+#header .nav .gnb li a { font-size: 18px; font-weight: 500;}
+#header .nav .gnb li a i {font-size: 20px; font-weight: 800;}
+
+#header .top-menu {position: absolute; right: 100px; top: 50px; display: flex;}
+#header .top-menu li {margin-left: 35px;}
+#header .top-menu li a:hover {color: #E83833;}
+
+.main {}
+.main .con-box {width: 100%;}
+.main .con-box .inner {}
+
+.main .con1 {background: #F4F2F1;}
+.main .con1 .inner {height: 850px; background: #F4F2F1;}
+.main .con1 .inner h2 {font-size: 76px; font-weight: 700; position: absolute; left: 30px; top: 200px;}
+.main .con1 .inner ul {display: flex; position: absolute; right: 0; top: 120px;}
+.main .con1 .inner ul li {margin-right: 50px;}
+.main .con1 .inner strong {font-size: 28px; font-weight: 300; position: absolute; left: 0;
+bottom: 0px; width: 480px; height: 130px; text-indent: 30px; line-height: 130px;
+z-index: 1; background-color: white; opacity: 0;}
+.main .con1 .inner b {
+    background: #E83833; width: 80px; height: 130px; display: block; position: absolute;
+left: 400px; bottom: 0px; z-index: 1; opacity: 0;}
+.main .con1 .inner:hover strong {transition: 0.8s; bottom: 150px; opacity: 1;}
+.main .con1 .inner:hover b {transition: 0.8s; bottom: 150px; opacity: 1;}
+.main .con1 .inner span {font-size: 20px; color: #E83833; position: absolute; bottom: 20px; left: 630px;
+cursor: pointer;}
+
+.main .con2 {}
+.main .con2 .inner {height: 660px;}
+.main .con2 .inner em::before {content: "";
+    display: block; border-left: 2px solid #E83833;
+width: 1px; height: 40px; position: absolute; left: 40px; top: -80px;
+opacity: 1;}
+.main .con2 .inner em {font-size: 24px; font-weight: 700; position: absolute;
+left: 580px; top: 130px; opacity: 0;}
+.main .con2 .inner em::after {content: "";
+    width: 10px; height: 10px; display: inline-block;
+    border-radius: 50%; background-color: #E83833;}
+.main .con2 .inner:hover em {opacity: 1; transition: 0.5s; padding-left: 80px;}
+.main .con2 .inner:hover em::before {transition: 0.5s; margin-left: 80px;
+    opacity: 1;}
+
+.main .con2 .inner h3 {font-size: 50px; position: absolute; left: 300px; top: 250px; opacity: 0;}
+.main .con2 .inner:hover h3 {transition: 0.8s; padding-left: 90px; opacity: 1;}
+.main .con2 .inner p {font-size: 30px; font-weight: 300; position: absolute; left: 550px; top: 330px; opacity: 0; }
+.main .con2 .inner:hover p {transition: 0.8s; padding-left: 90px; opacity: 1;}
+.main .con2 .inner span {font-size: 20px; color: #E83833; position: absolute; left: 550px; bottom: 160px; opacity: 0;}
+.main .con2 .inner:hover span {transition: 0.8s; padding-left: 90px; opacity: 1;}
+
+.main .con3 {}
+.main .con3 ul {}
+.main .con3 ul li {}
+
+.main .con4 {height: 1350px; position: relative;}
+.main .con4 .main-menu {display: flex; justify-content: center; border-bottom: 2px solid #E83833;}
+.main .con4 .main-menu li {margin-left: 20px;}
+
+.main .con4 .btn {width: 40px; height: 40px; border: none; background: none;
+    position: absolute; top: 5%; transform: translateY(-50%);}
+.main .con4 .btn i {line-height: 40px; font-size: 30px; color: #E83833;}
+.main .con4 .prev {left:100px;}
+.main .con4 .next {right:100px;}
+
+.main .con4 .inner img {position: absolute; top: 0px; right: 0px; opacity: 0; opacity: 0;}
+.main .con4 .inner .small-photo {top: 30px;}
+.main .con4 .inner:hover .small-photo {transition: 0.7s; right: 80px; opacity: 1;}
+.main .con4 .inner .big-photo {top: 270px;}
+.main .con4 .inner:hover .big-photo {transition: 0.7s; right: 150px; opacity: 1;}
+
+.main .con4 .inner em { display: block;
+     font-size: 24px; font-weight: 700; padding-top: 300px; padding-left: 80px; opacity: 0;}
+.main .con4 .inner em::after {content: "";
+    width: 10px; height: 10px; display: inline-block;
+    border-radius: 50%; background-color: #E83833;}
+.main .con4 .inner:hover em {transition: 0.8s; opacity: 1; padding-left: 0px;}
+.main .con4 .inner h3 {font-size: 50px; opacity: 0; padding-left: 80px;}
+.main .con4 .inner:hover h3 {transition: 0.8s; padding-left: 0px; opacity: 1;}
+.main .con4 .inner h4 {font-size: 35px; font-weight: 300; opacity: 0; padding-left: 80px;}
+.main .con4 .inner:hover h4 {transition: 0.8s; padding-left: 0px; opacity: 1;}
+.main .con4 .inner span::before {content: ""; width: 1px; height: 45px; border-left: 2px solid #E83833; position: absolute;
+bottom: 160px; left: 80px; opacity: 0;} 
+.main .con4 .inner:hover span::before {transition: 0.8s; left: 0px; opacity: 1;}
+.main .con4 .inner span {display: block; font-size: 26px; margin-top: 150px; padding-left: 80px; font-weight: 500; color: #E83833; opacity: 0; }
+.main .con4 .inner:hover span {transition: 0.8s; opacity: 1; padding-left: 0px;}
+.main .con4 .inner p {display: block; font-size: 22px; font-weight: 300; opacity: 0; padding-left: 80px;}
+.main .con4 .inner:hover p {transition: 0.8s; opacity: 1; padding-left: 0px;}
+
+.main .con5 {height: 530px; background: #000; position: relative;}
+.main .con5 em {display: block; font-size: 24px; z-index: 1; font-weight: 700;
+position: absolute; top: 100px; right: 300px; color: white;}
+.main .con5 em::after {content: "";
+    width: 10px; height: 10px; display: inline-block;
+    border-radius: 50%; background-color: #E83833;}
+.main .con5 h3 {font-size: 50px; position: absolute; top: 200px; right: 300px; color: white;
+}
+.main .con5 h4 {font-size: 35px; color: white; position: absolute; top: 280px; right: 300px;
+font-weight: 300;}
+
+.main .con5 span {display: block; font-size: 20px; position: absolute; top: 0; right: 0; color: white;
+right: 300px; top: 400px;}
+.main .con5 i {margin-left: 40px;}
+
+.main .con6 {}
+.main .con6 .inner {height: 1100px;}
+.main .con6 .inner em {display: block; font-size: 24px; font-weight: 700; text-align: center;
+padding-top: 100px; padding-bottom: 40px;}
+.main .con6 .inner em::after {content: "";
+    width: 10px; height: 10px; display: inline-block;
+    border-radius: 50%; background-color: #E83833;}
+.main .con6 .inner h4 {font-size: 35px; font-weight: 300; text-align: center; padding-bottom: 50px;}
+.main .con6 .inner .box ul {display: flex; justify-content: space-between; position: relative;}
+.main .con6 .inner .box li { border: 1px solid #DCDCDC; width: 400px; height: 400px;
+box-shadow: 10px 5px 5px #DCDCDC;}
+.main .con6 .inner .box li h3 {text-indent: 40px; padding-top: 50px; padding-bottom: 15px; font-size: 30px; font-weight: 570;}
+.main .con6 .inner .box li span {display: block; text-indent: 40px; margin: 10px 0; color: #999;}
+.main .con6 .inner .box li p {margin: 40px; border-bottom: 1px solid #999; display: inline;}
+.main .con6 .inner .box li .box-btn1 {width: 40px; height: 40px; font-size: 30px; text-align: center; border: none;
+background: none; color: #E83833; position: absolute; bottom: 60px; left: 265px;}
+.main .con6 .inner .box li .box-btn2 {width: 40px; height: 40px; font-size: 30px; text-align: center; border: none;
+    background: none; color: #E83833; position: absolute; bottom: 60px; left: 820px;}
+
+
+.main .con6 .inner .box li .injae {content: ""; border-bottom: none;}
+.main .con6 .inner .box li b {display: block; text-indent: 40px;}
+.main .con6 .inner .food-link {width: 320px; height: 50px; border: 1px solid #dcdcdc;
+display: block; vertical-align: middle; margin-top: 20px; margin-left: 40px; line-height: 50px;
+text-align: center; font-size: 20px; font-weight: 300; background: none;}
+.main .con6 .inner .food-link strong {color: #E83833;}
+
+.main .con6 .after {}
+.main .con6 .after:hover {transition: 1s; padding-top: 300px;}
+.main .con6 .after p {font-size: 85px; letter-spacing: 0.7em; text-align: center; margin-top: 130px;
+color: #E9E9E9; z-index: 0; text-shadow:5px 5px 5px #999;}
+ 
+
+.main .con7 {background-image: url(../images/box\(con4\).png); height: 600px;}
+.main .con7 .inner {}
+.main .con7 .inner em {display: block; font-size: 24px; font-weight: 700;
+position: absolute; top: 150px; left: 0px; color: white;}
+.main .con7 .inner em::after {content: "";
+    width: 10px; height: 10px; display: inline-block;
+    border-radius: 50%; background-color: #E83833;}
+.main .con7 .inner h3 {font-size: 65px; font-weight: 500; color: white; position: absolute; top: 250px;
+left: 0;}
+.main .con7 .inner h4 {font-size: 38px; color: white; font-weight: 300; position: absolute; left: 0; top: 360px;} 
+.main .con7 .inner span {font-size: 26px; color: white; position: absolute; left: 0; top: 500px; font-weight: 500;}
+.main .con7 .inner i {font-size: 22px; margin-left: 40px; font-weight: 300;}
+
+.main .inner .article-menu {}
+.main .inner .article-menu {display: flex;}
+.main .inner .article-menu li {font-size: 20px; padding-right: 120px; }
+.main .inner .article-menu li:first-child {margin-top: 30px; font-weight: 700; cursor: pointer;}
+.main .inner .article-menu li:first-child:hover {color: #E83833;}
+.main .inner .article-menu li {margin : 20px 0; font-weight: 300;}
+.main .inner .article-menu .call {color: #E83833;}
+
+#footer {border-top: 2px solid #dcdcdc; }
+#footer .inner {height: 220px;}
+#footer .inner ul {display: flex; font-size: 18px;}
+#footer .inner .f1 li {font-size: 20px; margin-right: 100px; margin-bottom: 30px; margin-top: 20px;}
+#footer .inner .f1 li:hover {color: #E83833;}
+#footer .inner .f2 li {margin-right: 30px;}
+#footer .inner .f3 li {margin-right: 20px; margin-bottom: 30px;}
+
+.top { position: fixed; left: 90%; bottom: 100px; width: 80px; height: 80px; background: #E83833; text-align: center; z-index: 1;
+    cursor: pointer; border-radius: 50%;}
+    .top.on { display: block; }
+    .top i { line-height: 80px; color:#fff; font-size: 32px; }
